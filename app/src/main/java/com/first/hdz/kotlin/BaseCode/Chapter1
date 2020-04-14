@@ -1,0 +1,21 @@
+Kotlin的语言特点：
+1.简洁，完成相同的功能模块，Kotlin的代码量更少
+2.安全，Kotlin和Java一样也是静态类型语言，并且支持非空类型
+3.类型推导，Kotlin编译器根据上下文环境推导出它的数据类型
+4.支持函数编程，代码变得简洁，增强线程安全和便于测试
+5.支持对象
+6.和Java之间有良好的互操作性
+7.免费开源
+
+Kotlin应用程序运行过程
+1.Java程序运行过程，Java编译器将 *.java 文件编译成为字节码文件（*.class）,这个过程通过JDK提供的
+  javac命令进行编译，当运行java字节码文件时，有Java虚拟机中的解释器将字节码解释成为机器码去执行，这
+  个过程可以通过JRE（Java运行环境）提供的java命令解释运行
+2.Kotlin应用程序运行过程，Kotlin编译器将 *.kt 文件编译成字节码文件（*Kt.class），编译过程可以通过
+  Kotlin编译器提供的kotlinc命令进行编译，运行字节码有Java解释器将字节码解释成为机器码去执行，这个过
+  程也是通过java命令解释，但是需要Kotlin运行时库支持才能正常运行
+
+1.Kotlin源码下载地址：https://github.com/jetbrains/kotlin
+2.Kotlin官网：https://kotlinlang.org/
+3.Kotlin官方参考文档：https://kotlinlang.org/docs/reference/
+4.Kotlin标准库：https://kotlinlang.org/api/latest/jvm/stdlib/index.html
